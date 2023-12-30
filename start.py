@@ -1,7 +1,7 @@
 import streamlit as st
+import openai
 
-
-print("OK Imported !!!")
+st.write("OK Imported !!!")
 
 st.title("Kumara Personal Info !!!")
 
