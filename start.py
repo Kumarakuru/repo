@@ -18,4 +18,6 @@ st.markdown(html_string, unsafe_allow_html=True);
 if len(query)>0:
     cv_text="Query Done !!!"
 
-st.markdown(cv_text,unsafe_allow_html=True);
+#st.markdown(cv_text,unsafe_allow_html=True);
+
+st.components.v1.html(cv_text,height=200)
