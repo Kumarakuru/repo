@@ -1,5 +1,10 @@
 import streamlit as st
 
+import os
+import openai
+
+print("OK Imported !!!")
+
 st.title("Kumara Personal Info !!!")
 
 for i in range(50): 
