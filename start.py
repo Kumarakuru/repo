@@ -1,5 +1,6 @@
 import streamlit as st
 import openai
+import streamlit.components.v1 as components 
 
 initial_text="This is start only !!!"
 
@@ -10,8 +11,8 @@ cv_text = file.read()
 # close the file
 file.close() 
 
-query = st.text_input('Enter Your Query About Kumara !!', '')
-html_string=F"Response for your query is:<b>{query}</b>"
+query = st.text_input('You wanted to know specifics, enter your question', '')
+html_string=F"<div font-size=3px>Powered by chatGPT</div><br>Response for your query is:<b>{query}</b>"
 st.markdown(html_string, unsafe_allow_html=True);
 
 
@@ -20,4 +21,6 @@ if len(query)>0:
 
 #st.markdown(cv_text,unsafe_allow_html=True);
 
-st.components.v1.html(cv_text,height=2000)
+components.html(cv_text,height=2000,scrolling=True )
+    
+
