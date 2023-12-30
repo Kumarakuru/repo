@@ -1,7 +1,5 @@
 import streamlit as st
 
-import os
-import openai
 
 print("OK Imported !!!")
 
