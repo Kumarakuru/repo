@@ -1,10 +1,9 @@
 import streamlit as st
 import openai
 
-title = st.text_input('Movie title', 'Life of Brian')
-st.write('The current movie title is', title)
-
-st.write("OK Imported !!!")
+title = st.text_input('Whats your Name', '')
+html_string=F"My Name is:<b>{title}</b>"
+st.markdown(html_string, unsafe_allow_html=True)
 
 st.title("Kumara Personal Info !!!")
 
