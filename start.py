@@ -20,4 +20,4 @@ if len(query)>0:
 
 #st.markdown(cv_text,unsafe_allow_html=True);
 
-st.components.v1.html(cv_text,height=200)
+st.components.v1.html(cv_text,height=2000)
