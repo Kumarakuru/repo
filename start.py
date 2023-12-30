@@ -1,5 +1,6 @@
 import streamlit as st
 
-for i in range(50):
-  print("Hi Mi");
-  st.write("Hello, world!")
+st.title("Kumara Personal Info !!!")
+
+for i in range(50): 
+  st.write("Hello, world!, here comes Kumara !!!")
