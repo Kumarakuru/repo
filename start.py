@@ -1,11 +1,21 @@
 import streamlit as st
 import openai
 
-title = st.text_input('Whats your Name', '')
-html_string=F"My Name is:<b>{title}</b>"
-st.markdown(html_string, unsafe_allow_html=True)
+initial_text="This is start only !!!"
 
-st.title("Kumara Personal Info !!!")
+# Open a file: file
+file = open('cv.html',mode='r')
+# read all lines at once
+cv_text = file.read() 
+# close the file
+file.close() 
 
-for i in range(50): 
-  st.write("Hello, world!, here comes Kumara !!!")
+query = st.text_input('Enter Your Query About Kumara !!', '')
+html_string=F"Response for your query is:<b>{query}</b>"
+st.markdown(html_string, unsafe_allow_html=True);
+
+
+if len(query)>0:
+    cv_text="Query Done !!!"
+
+st.markdown(cv_text,unsafe_allow_html=True);
