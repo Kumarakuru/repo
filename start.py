@@ -22,8 +22,9 @@ cv_text = file.read()
 file.close() 
 
 query = st.text_input("What's on Your Mind? Ask Me About Anything Specific", '')
-result=index.query(query)
-html_string=F"<div font-size=3px>Powered by chatGPT</div><br>{result}"
-st.markdown(html_string, unsafe_allow_html=True);
+if len(query)>0:
+    result=index.query(query)
+    html_string=F"<div font-size=3px>Powered by chatGPT</div><br>{result}"
+    st.markdown(html_string, unsafe_allow_html=True);
 
 components.html(cv_text,height=2000,scrolling=True )   
