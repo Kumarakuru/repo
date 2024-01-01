@@ -1,0 +1,241 @@
+{
+    "Personal Details": {
+     "Name" : "Kumarakuru",
+      "Full Name": "Kumarakurubaran Balasubramanian",
+      "Alias":"Kumara",
+      "Email":"Kumarakuru@gmail.com",
+      "Phone Number": "+65-96522794",
+      "Nationality": "Singapore"
+    },
+    "Renumeration Details":{
+      "Current Drawn Salary": "As per the average salary of Singapore banking industry",
+      "Expected Salary": "Around 5 - 10% increment"
+    },
+    "Educational Qualification" :
+      [
+        {
+          "Studied": "Diploma in Artificial Intelligence and Machine Learning",
+          "Institution": " University of Texas (Online)",
+          "Year": 2022
+        },
+        {
+          "Studied": "Masters of science in Financial Engineering",
+          "Institution": " National University of Singapore",
+          "Year": 2012
+        },
+        {
+          "Studied": "Masters in Information technology",
+          "Institution": " University of western Sydney",
+          "Year": 2003
+        },
+        {
+          "Studied": "Bachelors of engineering",
+          "Institution": " University of Madras",
+          "Year": 1996
+        },
+        {
+          "Studied": "Diploma in advanced computing",
+          "Institution": " India",
+          "Year": 1997
+        }
+       ],
+    "Work Experience"  :
+    [
+      {
+        "Organization": "Perfect Consultancy Systems",
+        "Country": "India",
+        "Role": "Programmer",
+        "Work Description": "Software Development",
+        "From Year": "1996",
+        "To Year": "2000"
+      },
+      {
+        "Organization": "Various",
+        "Country": "Singapore",
+        "Role": "Software consultant, ",
+        "Work Description": "▪Worked on ERP systems (.NET) as a programmer in Sonopress (Arvato) \n▪Worked as a senior software engineer on a vehicle tracking system (GPS) on the JavaScript platform.\n▪Various other organizations, as a programmer in the .net platform",
+        "From Year": "1 Feb 01",
+        "To Year": "Mar 06"
+      },
+      {
+        "Organization": "Interakt Group",
+        "Country": "Singapore, USA (New York)",
+        "Role": "Senior Software Engineer",
+        "Work Description": "▪Worked as a software architect consultant for various clients including New York City Economic Development Corporation, USA, OCBC in their intranet/internet website ",
+        "From Year": "Apr 06",
+        "To Year": "Dec 07"
+      },
+      {
+        "Organization": " Société Générale Private Bank",
+        "Country": "Singapore",
+        "Role": "Senior Software Engineer",
+        "Work Description": "▪Senior software developer with hands-on VB, and .Net\nMajor contribution involves, setting up the process and performance enhancement of various components (both DB and app side)",
+        "From Year": "Dec 07",
+        "To Year": "Oct 14"
+      },
+      {
+        "Organization": "BNP Paribas Private Bank",
+        "Country": "Singapore, France (Paris)",
+        "Role": "Project Manager/Senior Business Analyst",
+        "Work Description": "▪Worked as a business analyst with various entities of the BNP group to formalise the Functional specs in the compliance team.\n▪Worked as central co-ordinator for Compliance rules maintenance team for entire BNP group entities\n▪Maintained energy and enthusiasm in a fast-paced environment.\n▪Resolved problems, improved operations and provided exceptional service.",
+        "From Year": "Sep 14",
+        "To Year": "Feb 18"
+      },
+      {
+        "Organization": "Bank of singapore",
+        "Country": "Singapore",
+        "Role": "Tech Lead ",
+        "Work Description": "▪Expertise in the complete project life cycle right through submitting business papers, risk assessment, architecture verification, technical task implementation, development, deployment and providing production support (completed more than 50+ production deployments)\n▪Instrumental in bringing up several enhancement initiatives such as Rest API automation regression with AI Automation, implementing Drools-based rule engine, Moving integration services to Python, well-defined resource planning,\n▪Functional expertise in Investment Banking Order Management and compliance check.",
+        "From Year": "Feb 18",
+        "To Year": "Present"
+      }
+     ],
+     "Software developement experience":
+     [
+      {
+        "Language": "C#",
+        "Years of experience": 10,
+        "Proficiency": "80%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Java",
+        "Years of experience": 10,
+        "Proficiency": "70%",
+        "Achievements": "Implemented PTCC (Pre trade compliance check application from the scratch in Java, spring boot)"
+      },
+      {
+        "Language": "SQL Server",
+        "Years of experience": 15,
+        "Proficiency": "90%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Oracle",
+        "Years of experience": 3,
+        "Proficiency": "30%",
+        "Achievements": ""
+      },
+      {
+        "Language": "VBA",
+        "Years of experience": 12,
+        "Proficiency": "80%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Javascript",
+        "Years of experience": 7,
+        "Proficiency": "80%",
+        "Achievements": ""
+      },
+      {
+        "Language": "HTML",
+        "Years of experience": 10,
+        "Proficiency": "80%",
+        "Achievements": ""
+      },
+      {
+        "Language": "CSS",
+        "Years of experience": 10,
+        "Proficiency": "80%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Sybase",
+        "Years of experience": 2,
+        "Proficiency": "50%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Weblogic",
+        "Years of experience": 6,
+        "Proficiency": "60%",
+        "Achievements": "Deployed the PTCC (pre trade compliance check project in java in Weblogic from the scratch and maintaining it)"
+      },
+      {
+        "Language": "Linux",
+        "Years of experience": 6,
+        "Proficiency": "60%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Shell Scripting",
+        "Years of experience": 6,
+        "Proficiency": "70%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Python",
+        "Years of experience": 4,
+        "Proficiency": "90%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Postgres",
+        "Years of experience": 1,
+        "Proficiency": "30%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Angular",
+        "Years of experience": 0.5,
+        "Proficiency": "10%",
+        "Achievements": ""
+      },
+      {
+        "Language": "React",
+        "Years of experience": 0.5,
+        "Proficiency": "10%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Bitbucket",
+        "Years of experience": 4,
+        "Proficiency": "70%",
+        "Achievements": ""
+      },
+      {
+        "Language": "JIRA ",
+        "Years of experience": 4,
+        "Proficiency": "70%",
+        "Achievements": ""
+      },
+      {
+        "Language": "SSIS",
+        "Years of experience": 10,
+        "Proficiency": "80%",
+        "Achievements": ""
+      },
+      {
+        "Language": "TensorFlow",
+        "Years of experience": 2,
+        "Proficiency": "50%",
+        "Achievements": ""
+      },
+      {
+        "Language": "PyTorch",
+        "Years of experience": 2,
+        "Proficiency": "90%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Pandas",
+        "Years of experience": 4,
+        "Proficiency": "90%",
+        "Achievements": ""
+      },
+      {
+        "Language": "Machine learning",
+        "Years of experience": 3,
+        "Proficiency": "80%",
+        "Achievements": "Implemented a Machine learning project for Compliance rule prediction system to early detect rule pass percentage"
+      }
+     ],
+     "Personal skills":
+     [
+      {
+      "Number of direct reportees":5,
+      "years of managerial experience":4
+      }
+     ]
+  }
