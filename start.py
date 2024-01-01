@@ -1,9 +1,8 @@
-import streamlit as st
-import openai
+import streamlit as st, openai, os
 import streamlit.components.v1 as components 
 from langchain.document_loaders import TextLoader
 from langchain.indexes  import VectorstoreIndexCreator
-import openai, os
+
 
 #setup Open AI
 ai_key="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"
