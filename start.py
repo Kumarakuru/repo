@@ -8,7 +8,7 @@ import logging
 #Setup the logging
 logging.basicConfig(format='Date-Time : %(asctime)s : Line No. : %(lineno)d - %(message)s', \
                     level = logging.INFO, filename = 'log/cv_queries.log', filemode = 'a')
-
+log = logging.getLogger("myapp")
 
 #setup Open AI
 ai_key=st.secrets["OPENAI_API_KEY"]
@@ -30,6 +30,6 @@ if len(query)>0:
     result=index.query(query)
     html_string=F"<div font-size=3px>Powered by chatGPT</div><br>{result}"
     st.markdown(html_string, unsafe_allow_html=True);
-    logging.info("Query: "+query + " and result:" + result);
+    log.info("Query: "+query + " and result:" + result);
 
 components.html(cv_text,height=2000,scrolling=True )   
