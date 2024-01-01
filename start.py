@@ -1,5 +1,4 @@
 #!pip install langchain
-import vertexai
 import streamlit as st, openai, os, json
 import streamlit.components.v1 as components 
 from langchain.indexes  import VectorstoreIndexCreator
@@ -8,7 +7,7 @@ from langchain.document_loaders import TextLoader
 
 
 #setup Open AI
-ai_key="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"
+ai_key="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"
 os.environ["OPENAI_API_KEY"] = ai_key
 
 #Initialize langchain
