@@ -7,7 +7,7 @@ from langchain.document_loaders import TextLoader
 
 
 #setup Open AI
-ai_key="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"
+ai_key=st.secrets["OPENAI_API_KEY"]
 os.environ["OPENAI_API_KEY"] = ai_key
 
 #Initialize langchain
