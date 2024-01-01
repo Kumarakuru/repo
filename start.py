@@ -1,8 +1,9 @@
 #!pip install langchain
 import streamlit as st, openai, os
 import streamlit.components.v1 as components 
-from langchain.document_loaders import TextLoader
 from langchain.indexes  import VectorstoreIndexCreator
+from langchain.document_loaders import TextLoader
+
 
 
 #setup Open AI
