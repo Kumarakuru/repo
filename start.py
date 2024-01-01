@@ -5,7 +5,7 @@ from langchain.indexes  import VectorstoreIndexCreator
 
 
 #setup Open AI
-ai_key="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"
+ai_key="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"
 os.environ["OPENAI_API_KEY"] = ai_key
 
 #Initialize langchain
